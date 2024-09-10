@@ -34,7 +34,7 @@ export default function Example() {
     <Dialog>
       <DialogTrigger asChild>
         <Button variant='outline'>
-          <Text>Edit Profile</Text>
+          <Text>Select in dialog issue</Text>
         </Button>
       </DialogTrigger>
       <DialogContent className='sm:max-w-[425px]'>
