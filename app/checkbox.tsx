@@ -8,9 +8,10 @@ export default function CheckboxScreen() {
   return (
     <View className='flex-1 justify-center items-center p-6 gap-12'>
       <View className='flex-row gap-3 items-center'>
-        <Checkbox aria-labelledby='terms' checked={checked} onCheckedChange={setChecked} />
+        <Checkbox aria-labelledby='terms-label' nativeID="terms" checked={checked} onCheckedChange={setChecked} />
         <Label
-          nativeID='terms'
+          nativeID='terms-label'
+          htmlFor="terms"
         >
           Accept terms and conditions
         </Label>

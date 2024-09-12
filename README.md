@@ -5,7 +5,7 @@ This repo is based on the template provided by `react-native-reusables`.
 
 Just npm install, run web.
 
-## Select in dialog issue
+## ⏳ Select in dialog issue
 
 Link: http://localhost:8081/checkbox
 
@@ -15,8 +15,8 @@ The behaviour is broken in both chrome and firefox, but in firefox I also get er
 
 > Uncaught InternalError: too much recursion
 
-## Aria-label
+## ✅ Aria-label
 
 Link: http://localhost:8081/checkbox
 
-Click on the label. The checkbox does not get toggled.
+Click on the label. The checkbox now gets toggled.
